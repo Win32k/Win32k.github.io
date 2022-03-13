@@ -1,4 +1,3 @@
-
 ---
 title: "Bypassing AV using ScareCrow"
 layout: post
