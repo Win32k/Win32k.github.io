@@ -1,10 +1,10 @@
 
 ---
-title: Bypassing AV using ScareCrow
-tags: [windows, c2]
+title: "Bypassing AV using ScareCrow"
+layout: post
 ---
 
-This post demonstrates how to bypass defender in order to execute your Cobalt Strike payload.
+This post demonstrates how to bypass AV so you can run your Cobalt Strike payload.
 
 ### Sources
 https://github.com/optiv/ScareCrow
