@@ -116,10 +116,10 @@ After that, write to the processes memory space.
 WriteProcessMemory(hProc, lpBase, dll, sz, NULL);
 ```
 
-`hProc` - The handle to the process memory to be modified
-`lpBaseAddres` - Pointer to the base address in process
-`lpBuffer` - Pointer to the buffer that contains the DLL (C:\\path\\to.dll)
-`nSize` - Number of bytes to be written (size of DLL path)
+`hProc` - The handle to the process memory to be modified <br />
+`lpBaseAddres` - Pointer to the base address in process <br />
+`lpBuffer` - Pointer to the buffer that contains the DLL (C:\\path\\to.dll) <br />
+`nSize` - Number of bytes to be written (size of DLL path) <br />
 
 Finally, we create the remote thread which injects the DLL into the targets address space.
 
