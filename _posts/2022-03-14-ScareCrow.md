@@ -72,7 +72,6 @@ Once you have made your shellcode, we can now use ScareCrow.
 This command will convert our Cobalt Strike shellcode into an executable, with a fake certificate signed by "ubuntu.com", howver you can use `-vaid` to provide a valid code signing certificate.
 
 The sandbox flag enables sandbox evasion by using `IsDomainJoined` calls, and the noetw flag disbaled ETW patching which prevents ETW events for being generated
-
-https://docs.microsoft.com/en-us/windows/win32/etw/about-event-tracing
+[ms]https://docs.microsoft.com/en-us/windows/win32/etw/about-event-tracing
 
 ![scarecrow](https://imgur.com/zmiuFGb.png)
